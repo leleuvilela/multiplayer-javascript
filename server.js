@@ -111,8 +111,8 @@ io.on('connection', function(socket){
 
 });
 
-webServer.listen(3000, function(){
-  console.log('> Server listening on port:',3000)
+webServer.listen(80, function(){
+  console.log('> Server listening on port:',80)
 });
 
 function createGame() {
